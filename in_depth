@@ -1,0 +1,36 @@
+Doctors:
+* On each vaccine injection they must ‘register’ the patient by sending a sms from the patient phone with the code
+* When a patient come to the clinic, they ask the patient to send a sms and they receive the vaccination history information on the patient’s phone
+* If check a vial and see it is marked as ‘disposed’ - they know not to use it
+* If they check a vial and get no results - they know it is a fake 
+
+Manufacturers
+* They need to write each vial code into the blockchain
+* They need to print a code on each vial
+* Each time a code is being checked or activated they can know where it is located in the world
+
+Patients
+* They can receive their vaccination information by sending a SMS
+* They can choose permissions for being contacted by vaccine producers, and who they want to give access to 
+
+
+Technical 
+* Blockchain log for edding new vials, showing:
+    - Vaccine name and code
+    - Manufacture date
+    - Manufacture place (code)
+    - Expiration date
+    - Status 
+    - Status date change
+    - Phone number (only after administration) (searchable)
+
+
+* Smart contract that marks vaccine in one of 3 states:
+    - New 
+    - Administered
+    - Disposed
+
+
+* SMS system
+    - Enter a code and mark the vial as administered
+    - Get request, and send a SMS with all info related to this number
