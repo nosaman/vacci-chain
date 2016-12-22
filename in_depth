@@ -15,6 +15,16 @@ Patients
 
 
 Technical 
+
+1. Each vaccine vial is registered on a blockchain.
+2. Smart contract allow each vial to be marked first as ‘new’, ‘administered’ & ‘disposed’
+3. Checking the code on the vile shows manufacturing info and status
+4. When vaccine administrated, the code is sent by sms, and mark the vial as ‘administered’
+5. Phone number is added to the log
+6. Sending a sms to the the vacci-chain number, will send back an sms with manufacturing info, status & time of administration linked to the number the sms was sent from
+* If a bach is being ‘disposed’ - the manufacturer can mark all the veils as ‘disposed’
+* Expiration date will automatically mark the vial as ‘disposed’
+
 * Blockchain log for edding new vials, showing:
     - Vaccine name and code
     - Manufacture date
